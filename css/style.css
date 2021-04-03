@@ -1,0 +1,48 @@
+.jumbotron {
+    background-image: url(../images/Group_5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 72px;
+    color: white
+  }
+  #topMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    color: white;
+}
+#topMenu p {
+    padding: 10px;
+    display: inline-block;
+    color: white;
+}
+ul {
+    padding: 0;
+    margin: 50px 20px;
+    list-style: none;
+    color: white;
+}
+ul li {
+    margin: 5px;
+    display: inline-block;
+}
+ul li {
+    padding: 5px;
+    display: inline-block;      
+}
+ul li img {
+    width: 125px;
+    height: 125px;
+    display: block;
+    border-radius: 20px
+}
